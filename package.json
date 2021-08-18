@@ -1,0 +1,28 @@
+{
+  "name": "Security",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "author": "ezzud",
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^7.1.2",
+    "discord.js": "^12.4.1",
+    "discord.js-commando": "^0.10.0",
+    "edit-json-file": "^1.4.0",
+    "fs": "0.0.1-security",
+    "hastebin": "^0.2.1",
+    "lowdb": "^1.0.0",
+    "moment": "^2.24.0",
+    "opusscript": "0.0.7",
+    "path": "^0.12.7",
+    "pretty-ms": "^6.0.1",
+    "quick.db": "^7.1.3",
+    "sqlite3": "^5.0.2"
+  },
+  "optionalDependencies": {
+    "@discordjs/uws": "^11.149.1",
+    "node-opus": "^0.3.1"
+  }
+}
