@@ -6,7 +6,6 @@ const db = require('quick.db');
 module.exports = async (client, message) => {
     if (message.author.bot) return;
     if (message.channel.type === 'dm') return;
-    if (message.guild.id !== "643188015660924928" && message.guild.id !== "645727729353752592") return;
     const prefix = settings.prefix
     if (message.content.startsWith(prefix)) {
         let args = message.content.slice(prefix.length).trim().split(/ +/g);
